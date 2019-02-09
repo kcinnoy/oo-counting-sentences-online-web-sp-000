@@ -15,10 +15,8 @@ class String
   end
 
   def count_sentences
-    def count_sentences
     count = self.split(/.[.?!]/)
     count.collect {|string| !string.empty?}
     return count.length
-  end
   end
 end
